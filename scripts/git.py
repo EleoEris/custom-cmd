@@ -42,11 +42,11 @@ def main(cmd):
         request = get(link)
         if request.status_code == 200:
             if path:
-                with open(path) as output:
+                with open(path, "w") as output:
                     output.write(request.text)
                     print(f"Saved file successfully to {output.name}.")
             else:
-                with open(link[link.rindex("/") + 1:]) as output:
+                with open(link[link.rindex("/") + 1:], "w") as output:
                     output.write(request.text)
                     print(f"Saved file successfully to {output.name}.")
         else:
