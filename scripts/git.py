@@ -1,5 +1,6 @@
 import sys
 from requests import get
+from pathlib import Path
 
 raw  = "https://raw.githubusercontent.com/EleoEris/custom-cmd/main/README.md"
 norm = "https://github.com/EleoEris/custom-cmd/blob/main/README.md"
@@ -48,7 +49,7 @@ def main(cmd):
             else:
                 with open(link[link.rindex("/") + 1:], "w") as output:
                     output.write(request.text)
-                    print(f"Saved file successfully to {output.name}.")
+                    print(f"Saved file successfully to {Path(output.name).resolve()}.")
         else:
             print(f"Couldn't get file from link. Status code: {request.status_code}.\n Please check your input or try visiting the link yourself.\n{link}")
 
