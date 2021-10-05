@@ -46,7 +46,7 @@ def main(cmd):
                     output.write(request.text)
                     print(f"Saved file successfully to {output.name}.")
             else:
-                with open(link[link.rindex("/" + 1):]) as output:
+                with open(link[link.rindex("/") + 1:]) as output:
                     output.write(request.text)
                     print(f"Saved file successfully to {output.name}.")
         else:
