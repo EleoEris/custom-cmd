@@ -36,13 +36,10 @@ def main(cmd):
                     pass
             except IndexError:
                 print("Not a github link. Please provide a github link or (in order) the username, repository name, branch and file name")
-        print(locals())
         if not "link" in locals():
             print("Some error occurred!")
             return(1)
-        print(link)
         request = get(link)
-        print(f"TEXT:\n{req.text}\n==========================")
         if request.status_code == 200:
             if path:
                 with open(path) as output:
@@ -57,5 +54,4 @@ def main(cmd):
 
 
 if __name__ == '__main__':
-    print(f"Arguments: {sys.argv[2:]}")
     main(sys.argv[2:])
