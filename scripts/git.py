@@ -54,4 +54,4 @@ def main(cmd):
 
 
 if __name__ == '__main__':
-    main(sys.argv[2:])
+    main(sys.argv[2:]) ### First 2 arguments are path and script name - not necessary
