@@ -14,8 +14,11 @@ You are free to use my code, suggestions are welcome, do not try to get me to fi
 - type my_cmd *script_name*
 - further instructions will appear
 
+
+
 ## git
-Only *clone1* available for now. **WARNING!** Automatically overwrites existing code. (might add a built-in warning later)
+Only *clone1* available for now.
+**WARNING!** Automatically overwrites existing code. (might add a built-in warning later)
 ### git usage:
 ```
 clone1 link path                      link to repo, path where the new file will be saved (must include filename and extension)
