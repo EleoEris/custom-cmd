@@ -1,2 +1,3 @@
 # custom-cmd
-Windows cmd utility for various personal problems
+## Windows cmd utility for various personal problems
+Requires Requests
