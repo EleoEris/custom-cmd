@@ -20,7 +20,10 @@ You are free to use my code, suggestions are welcome, do not try to get me to fi
 Only *clone1* available for now.
 **WARNING!** Automatically overwrites existing code. (might add a built-in warning later)
 ### git usage:
-```
-clone1 link path                      link to repo, path where the new file will be saved (must include filename and extension)
-clone1 user repo branch file path     details of repository, path as above
-```
+<dl>
+  <dt>clone1 link path</dt>
+  <dd>link to repo, path where the new file will be saved (must include filename and extension)</dd>
+
+  <dt>clone1 user repo branch file path</dt>
+  <dd>details of repository, path as above</dd>
+</dl>
