@@ -22,7 +22,7 @@ Deletes securily file. More info at https://github.com/EleoEris/directory-utilit
 
 <dl>
   <dt>shredder filename</dt>
-  <dd>filename &nbsp;&nbsp; - file to shred</dd>
+  <dd><b>filename</b> &nbsp;&nbsp; - file to shred</dd>
 </dl>
 
 ## git
@@ -31,10 +31,10 @@ Only *clone1* available for now.
 ### git usage:
 <dl>
   <dt>clone1 link path</dt>
-  <dd>**link** &nbsp;&nbsp; - to repo<br/>
-      **path** &nbsp;&nbsp; - where the new file will be saved (must include filename and extension)</dd>
+  <dd><b>link</b> &nbsp;&nbsp;&nbsp; - to repo<br/>
+      <b>path</b> &nbsp;&nbsp; - where the new file will be saved (must include filename and extension)</dd>
 
   <dt>clone1 user repo branch file path</dt>
-  <dd>**details** &nbsp;&nbsp; - of repository<br/>
-      **path** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - as above</dd>
+  <dd><b>details</b> &nbsp;&nbsp; - of repository<br/>
+      <b>path</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - as above</dd>
 </dl>
