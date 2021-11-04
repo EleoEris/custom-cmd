@@ -86,4 +86,3 @@ def main(cmd) -> int: # like cpp int main() {}
 
 if __name__ == '__main__':
     main(sys.argv[2:])
-
