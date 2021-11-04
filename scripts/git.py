@@ -2,9 +2,6 @@ import sys
 from requests import get
 from pathlib import Path
 
-raw  = "https://raw.githubusercontent.com/EleoEris/custom-cmd/main/README.md"
-norm = "https://github.com/EleoEris/custom-cmd/blob/main/README.md"
-
 def print_help():
         print("Useful git commands")
         print("clone1 link path         - clones a single file from github")
