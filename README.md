@@ -26,7 +26,7 @@ Deletes securily file. More info at https://github.com/EleoEris/directory-utilit
 </dl>
 
 ## git
-Only *clone1* available for now.
+Only *clone1* available for now. Clones a single file from a github repo.
 **WARNING!** Automatically overwrites existing code. (might add a built-in warning later)
 ### git usage:
 <dl>
